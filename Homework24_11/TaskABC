@@ -1,0 +1,31 @@
+1)
+a = 11
+while a <= 30:
+    s = a ** 2
+    print(s)
+    a += 2
+2)
+a = 0
+s = 1
+z = int(input())
+while True:
+    n = int(input())
+    if n == 0:
+        break
+    if n == z:
+        s += 1
+        if s > a:
+            a = s
+    else:
+        s = 1
+    z = n
+print(a)
+3)
+a = 0
+while True:
+    n = int(input())
+    if n == 0:
+        break
+    if n % 2 == 0:
+        a += 1
+print(a)
